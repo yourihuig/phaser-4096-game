@@ -28,5 +28,8 @@
   },
   "dependencies": {
     "phaser": "^3.11.0"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server"
   }
 }
