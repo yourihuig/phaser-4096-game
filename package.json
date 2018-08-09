@@ -1,7 +1,7 @@
 {
   "name": "4096",
   "version": "1.0.0",
-  "description": "A puzzle game based on the popular 2048 made in phaser3.",
+  "description": "A puzzle game based on the popular 2048 made in Phaser 3.",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
