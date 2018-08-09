@@ -1,0 +1,32 @@
+{
+  "name": "4096",
+  "version": "1.0.0",
+  "description": "A puzzle game based on the popular 2048 made in phaser3.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html5",
+    "css",
+    "javascript",
+    "phaser3",
+    "game",
+    "crossplatform",
+    "puzzle"
+  ],
+  "author": "Youri Huig",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "copy-webpack-plugin": "^4.5.2",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "phaser": "^3.11.0"
+  }
+}
