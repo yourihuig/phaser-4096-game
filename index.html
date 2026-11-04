@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
 		<head>
+			<script>
+				// Asset paths are relative: make sure the URL ends with a slash, so
+				// /4096 loads its files from /4096/ and not from the site root.
+				if (!location.pathname.endsWith('/') && !/\.html?$/.test(location.pathname)) {
+					location.replace(location.pathname + '/' + location.search + location.hash);
+				}
+			</script>
 			<title>4096</title>
 			<meta name="viewport" content="width=device-width, initial-scale=body{1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, minimal-ui"/>
 			
